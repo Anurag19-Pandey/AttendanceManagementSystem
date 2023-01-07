@@ -1,0 +1,91 @@
+.dashboardinfo_container{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.student_present_timing{
+    background-color: rgb(166, 223, 166);
+}
+
+.student_profile{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.student_profile_text{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.checkin_title{
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.checkin_details{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 350;
+}
+
+.checkout_btn{
+    text-align: center;
+}
+
+.checkout_btn > button{
+    color: white;
+    background-color: rgb(248, 85, 85);
+    border: none;
+    outline: none;
+    padding: 7px;
+    width: 100px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+.checkout_btn > button:hover{
+    background-color: red;
+}
+
+.student_rollno{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 350;
+    margin-bottom: -10px;
+}
+
+.student_profile_image{
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    border-radius: 50%;
+}
+
+.welcome_msg{
+    font-size: 28px;
+    font-weight: bold;
+}
+
+hr{
+    width: 100%;
+    border: 1px solid  rgb(2, 197, 80);
+}
+
+.student_info{
+    width: 70%;
+    height: 80vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.student_present_timing{
+    width: 30%;
+    padding: 20px;
+}

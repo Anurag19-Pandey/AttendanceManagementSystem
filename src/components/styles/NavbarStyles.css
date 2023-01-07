@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+
+.navbar_container{
+    box-shadow: 0px 0px 2px 2px rgb(201, 201, 201);
+    padding: 0px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.logo_image{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+}
+
+.app_name{
+    margin-left: 10px;
+}
+
+.logo_name{
+    font-size: 26px;
+    font-family: 'Fredoka One', cursive;
+    color: rgb(65, 223, 33);
+}
+
+.logo_dot{
+    color: black;
+}
