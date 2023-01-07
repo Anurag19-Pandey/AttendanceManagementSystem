@@ -12,11 +12,7 @@ const AttendanceForm = () => {
     }) ;
 
     const [isSubmit , setIsSubmit] = useState(false) ;
-
-    const [totalStudents, setTotalStudent] = useState([]);
-
     let [count , setCount] = useState(0) ;
-
     const [formErrors , setFormErrors] = useState({}) ;
 
     const submitForm = (e)=>{
@@ -46,8 +42,7 @@ const AttendanceForm = () => {
     useEffect(()=>{
         if(Object.keys(formErrors).length === 0 && isSubmit === true){
            setCount(count++) ;
-           setTotalStudent(totalStudents.push(student));
-           navigate('/dashboard', { state :{rollno:student.rollno , name: student.name , count : count , totalStudents:totalStudents}});
+           navigate('/dashboard', { state :{rollno:student.rollno , name: student.name , count : count }});
         }
         else{
             setIsSubmit(false) ;

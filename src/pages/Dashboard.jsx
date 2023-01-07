@@ -12,9 +12,7 @@ const Dashboard = () => {
   const name = location.state.name ;
   const count = location.state.count ;
   const rollno = location.state.rollno ;
-  const totalStudents = location.state.totalStudents ;
-  console.log(totalStudents)
-  console.log(count);
+ 
   useEffect(()=>{
     students.find((stu) => {
        if(stu.rollno === rollno)
